@@ -39,4 +39,5 @@ for i in buttons:
 
 tk.Button(root,command=back,font=("bold",18),bg="black",fg="white",text="⌫",bd=2,width=5,height=2).grid(row=r,column=c+1,padx=2,pady=2,columnspan=1)
 tk.Button(root,command=clear,font=("bold",18),bg="black",fg="white",text="C",bd=2,width=5,height=2).grid(row=r,column=c,padx=2,pady=2,columnspan=1)
+
 root.mainloop()
